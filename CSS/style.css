@@ -586,3 +586,61 @@ body {
   text-decoration-line: line-through;
   color: #151875;
 }
+
+/* ----------------------
+  Contact & about style
+-----------------------*/
+.contact {
+  background: #EEEFFB;
+  padding: 3% 8%;
+  margin-top: 45px;
+}
+
+.contact-info h3 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.contact-info input {
+  background: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  opacity: 0.45;
+  border-radius: 2px;
+  outline: none;
+  font-size: 16px;
+  padding: 0.5% 7%;
+}
+
+.contact-info button {
+  background: #FB2E86;
+  border: 1px solid #FB2E86;
+  border-radius: 2px;
+  color: white;
+  padding: 1% 5%;
+}
+
+.contact-info p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8A8FB9;
+}
+
+.catagories h4 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.catagories p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8A8FB9;
+}
