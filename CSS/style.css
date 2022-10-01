@@ -383,3 +383,65 @@ body {
   line-height: 26px;
   color: rgba(26, 11, 91, 0.3);
 }
+
+/*------------------
+  banner two style
+------------------*/
+.banner-two {
+  background: #F1F0FF;
+  margin-top: 55px;
+  padding: 3% 13.5%;
+}
+
+.banner-two-image {
+  position: relative;
+}
+
+.image-one img {
+  width: 340px;
+  height: 340px;
+  margin-left: 15%;
+}
+
+.image-two img {
+  width: 370px;
+  height: 370px;
+  position: absolute;
+  top: 30px;
+  left: 90px;
+}
+
+.banner-two-details {
+  margin-top: 20%;
+}
+
+.banner-two-details h3 {
+  font-size: 25px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  font-weight: 800;
+  color: #151875;
+}
+
+.banner-two-details p {
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  color: #ACABC3;
+}
+
+.italian-sofa p {
+  font-family: 'Josefin Sans';
+  font-size: 13px;
+  line-height: 2px;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: #151875;
+  padding-left: 13px;
+}
+
+/*-------------------------
+  Trending Products tryle
+-------------------------*/
