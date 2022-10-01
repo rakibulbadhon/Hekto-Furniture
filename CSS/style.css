@@ -1,0 +1,342 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather:wght@300;400&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&family=Merriweather:wght@300;400&family=Yeseva+One&display=swap');
+
+/* body style */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*---------------- 
+  heading style 
+----------------*/
+.heading {
+  padding: 0.7% 16.2%;
+  font-size: 13px;
+  background: #7E33E0;
+  color: white;
+}
+
+/*--------------
+  Navbar style 
+--------------*/
+.navbar {
+  padding: 1% 15%;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #0D0E43;
+  margin-right: 50px;
+}
+
+.navbar-brand:hover {
+  color: #0D0E43;
+}
+
+.nav-link {
+  font-family: 'Lato';
+  font-size: 15.5px;
+  color: #0D0E43;
+}
+
+.nav-link:hover {
+  color: #FB2E86;
+}
+
+.search-icon {
+  background: #FB2E86;
+}
+
+.search-icon input {
+  border: 2px solid #E7E6EF;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon i {
+  color: white;
+  font-size: 16px;
+}
+
+/*--------------
+  Banner style 
+--------------*/
+.banner {
+  background-color: #F2F0FF;
+}
+
+.banner-light img {
+  width: 287px;
+  height: 287px;
+}
+
+.banner-details {
+  margin-top: 11.5%;
+}
+
+.banner-title {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  color: #FB2E86;
+}
+
+.banner-details h2 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.015em;
+  font-weight: bolder;
+  color: #000000;
+  margin-top: 12px;
+}
+
+.title-details {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #858ab8;
+}
+
+.banner-button {
+  font-family: 'Josefin Sans';
+  background: #FB2E86;
+  border: 1px solid #FB2E86;
+  border-radius: 2px;
+  padding: 3px 18px;
+  font-size: 15px;
+  color: white;
+  margin-top: 4px;
+}
+
+.banner-image {
+  position: relative;
+  width: 400px;
+  height: 500px;
+}
+
+.image1 img {
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+}
+
+.image2 img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.image3 img {
+  width: 380px;
+  height: 380px;
+  position: absolute;
+  top: 68px;
+}
+
+.image4 img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 60px;
+  left: 335px;
+}
+
+.image4 p {
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 75px;
+  left: 350px;
+}
+
+/*-------------------------
+  Featured Products style
+-------------------------*/
+.feartured-products {
+  padding: 1% 15%;
+}
+
+.feartured-products h3 {
+
+  font-size: 32px;
+  color: #1A0B5B;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 82px;
+  margin-bottom: 30px;
+}
+
+.card {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  background: #F6F7FB;
+}
+
+.card-image img {
+  width: 178px;
+  height: 178px;
+  padding: 30px 30px 20px 30px;
+}
+
+.card-title {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FB2E86;
+  margin-bottom: 2px;
+}
+
+.product-code {
+  font-size: 14px;
+  line-height: 20px;
+  color: #151875;
+  margin-bottom: 11px;
+}
+
+.product-price {
+  font-family: 'Lato';
+  font-size: 14px;
+  line-height: 8px;
+  color: #151875;
+  margin-bottom: 1px;
+}
+
+.card-icons {
+  position: absolute;
+  top: 8px;
+  left: 3px;
+}
+
+.card-icons i {
+  font-size: 0.8rem;
+  color: #1DB4E7;
+}
+
+#shopping-icon {
+  color: #2F1AC4;
+}
+
+.card-image button {
+  background: #08D15F;
+  border: 1px solid #08D15F;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+#card-body-style {
+  background: #2F1AC4;
+}
+
+/*------------------------
+  Largest Products style
+------------------------*/
+.largest-products {
+  padding: 1% 15%;
+}
+
+.largest-products h3 {
+  font-size: 32px;
+  color: #1A0B5B;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 41px;
+  margin-bottom: 13px;
+}
+
+.announcement span {
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 22px;
+  color: #151875;
+  padding-left: 4%;
+  margin-bottom: 40px;
+}
+
+#new-arrival {
+  color: #FB2E86;
+  text-decoration: underline;
+}
+
+.product-image {
+  background: #F7F7F7;
+  padding: 30px;
+}
+
+.product-image img {
+  width: 178px;
+  height: 178px;
+}
+
+.product-details span {
+  font-size: 14px;
+  line-height: 19px;
+  color: #151875;
+}
+
+.product-details .comfort {
+  border-bottom: 2px solid #EEEFFB;
+  margin-right: 15%;
+}
+
+.product-details .price {
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #FB2448;
+}
+
+#product-image2 {
+  background-color: white;
+  position: relative;
+}
+
+#product-image2 img {
+  margin-left: 30px;
+}
+
+.product-icon {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+
+.product-icon i {
+  font-size: 0.8rem;
+  color: #2F1AC4;
+}
+
+.product-icon img {
+  position: absolute;
+  width: 75px;
+  height: 48px;
+  left: -35px;
+  top: -75px;
+}
+
+.product-icon small {
+  position: absolute;
+  font-size: 14px;
+  line-height: 16px;
+  color: #EEEFFB;
+  transform: rotate(-18.12deg);
+  left: 20px;
+  top: -57px;
+}
