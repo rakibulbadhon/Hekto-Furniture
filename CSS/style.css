@@ -176,7 +176,7 @@ body {
 }
 
 .card {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
@@ -445,3 +445,144 @@ body {
 /*-------------------------
   Trending Products tryle
 -------------------------*/
+
+/* first row */
+.trending-products {
+  padding: 1% 15%;
+}
+
+.trending-products h3 {
+  font-size: 32px;
+  color: #1A0B5B;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.treding-card {
+  padding: 10px;
+}
+
+.trending-image {
+  background: #F5F6F8;
+}
+
+.trending-image img {
+  width: 178px;
+  height: 178px;
+  padding: 25px;
+}
+
+.trending-title {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #151875;
+  margin-bottom: 15px;
+}
+
+.trending-price h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  color: #151875;
+  margin-left: 16%;
+  margin-bottom: 4px;
+}
+
+.trending-price p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: rgba(21, 24, 117, 0.3);
+  margin-left: 9%;
+}
+
+/* second row */
+.clock-box {
+  background: #FFF6FB;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  padding: 20px 15px 10px 20px;
+}
+
+.clock-details h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #151875;
+  text-align: start;
+}
+
+.clock-details p {
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  text-align: start;
+  color: #FB2E86;
+}
+
+.clock-image {}
+
+.clock-image img {
+  width: 180px;
+  height: 170px;
+  margin-left: 32%;
+}
+
+.shelve-box {
+  background: #EEEFFB;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+  padding: 20px 15px 10px 20px;
+}
+
+.shelve-details h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: start;
+  color: #151875;
+}
+
+.shelve-details p {
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: start;
+  text-decoration-line: underline;
+  color: #FB2E86;
+}
+
+.shelve-image img {
+  margin-bottom: 14.5%;
+}
+
+.executive-chair {
+  background: #F5F6F8;
+}
+
+.executive-chair img {
+  padding-left: 17%;
+}
+
+.executive-details h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #151875;
+}
+
+.executive-details p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration-line: line-through;
+  color: #151875;
+}
