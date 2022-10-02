@@ -528,8 +528,6 @@ body {
   color: #FB2E86;
 }
 
-.clock-image {}
-
 .clock-image img {
   width: 180px;
   height: 170px;
@@ -643,4 +641,29 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #8A8FB9;
+}
+
+/*--------------
+  Footer style 
+--------------*/
+footer {
+  background: #E7E4F8;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9DA0AE;
+  padding-top: 13px;
+}
+
+footer i {
+  color: #151875;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
